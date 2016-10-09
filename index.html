@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Coding Gallery</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 'your-app-id',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    
+    <header>
+      <h1 class="page-title">THE CODING GALLERY</h1>
+      <p class="page-description"> Our Mission is to help expose young girls/women about the amazing world the tech field truly is. Where at a young age, young women are brainwashed to believe that science and math are too hard and they should explore more into liberal arts and in the medical field. Where those who are interested in math and science are picked on for what they enjoy and result in them not perusing it after elementary school. Where that needs to change, where   </p>
+    </header>
+
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img class="thumbnail" src="Img/blackgirlscodelogo.jpg">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="Img/codenow-logo.png">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="Img/t4-logo.png">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="Img/scripted_logo.png">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="Img/women who code .jpg">
+      </figure>
+      <figure class="gallery-item">
+        <img class="thumbnail" src="Img/girlswhocodegwc-logo.png">
+      </figure>
+    </div>
+
+      <nav>
+      <ul class="fish">
+        <li><a href="#">Awesome<b></b></a></li>
+        <li><a href="#">Unique</a></li>
+        <li><a href="#">Random</a></li>
+      </ul>
+      <div class="contact-btn"><a>Contact</a>
+      </div>
+    </nav>
+  </body>
+</html>
